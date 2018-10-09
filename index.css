@@ -1,0 +1,108 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #23415C;
+    font-size: 1.2em;
+    padding: 1% 0;
+}
+
+.navbar-default .navbar-brand{
+    position: relative;
+    bottom: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #D5D5D5;
+
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+    color: #FFF;
+    
+}
+
+.homeText {
+    background: url('images/mountains.jpeg') no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+.padding img {
+    width: 100%
+}
+
+#fixed {
+    background: url('images/background.jpg') no-repeat center center fixed;
+    display: table;
+    height: 80%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    padding: 5% 5% 10% 5%;
+    width: 100%;
+    background-color: #23415C;
+    color: #FFF
+}
+
+.fab {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF
+}
+
+.fab:hover{
+    color: #D5D5D5;
+    text-decoration: none
+}
+
+.icon {
+    max-width: 200px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+@media (max-width:768px){
+    .landing-text h1{
+        font-size: 300%
+    }
+    .fab{
+        font-size:20px;
+        padding: 10px
+    }
+    .icon {
+        padding-top: 5px;
+        max-width: 100px;
+    }
+}
